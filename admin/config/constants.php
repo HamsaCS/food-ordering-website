@@ -1,6 +1,10 @@
 <?php
+    //start session
+    session_start();
+
 
 // cre((ate constants to store  Non Repeating Values
+define('SITEURL','http://127.0.0.1:5500/');
 define('LOCALHOST','localhost');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
